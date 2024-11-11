@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Maria",
+      "password": "maria12345",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "email": "maria@gmail.com",
+      "mobileNumber": 1234567890,
+      "pincode": 123456,
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    {
+      "id": "2",
+      "name": "Gauri Gulwane",
+      "password": "gauri123",
+      "gender": "female",
+      "dateOfBirth": "1998-02-05",
+      "email": "gaurigulwane@gmail.com",
+      "mobileNumber": "1234567898",
+      "pincode": "411015",
+      "city": "PUNEEE",
+      "state": "Maharashtra",
+      "country": "Indiaaa"
+    }
+  ],
+  "coaches": [
+    {
+      "id": "1",
+      "name": "Rose",
+      "password": "rose12345",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "mobileNumber": 1234567890,
+      "speciality": "Confidence Issues"
+    },
+    {
+      "id": "2",
+      "name": "Gauri",
+      "password": "gauri123",
+      "dateOfBirth": "1998-07-09",
+      "gender": "female",
+      "mobileNumber": "1234567898",
+      "speciality": "crochet. i like to crochet"
+    },
+    {
+      "id": "3",
+      "name": "Ninad",
+      "password": "Ninad123",
+      "dateOfBirth": "1999-03-04",
+      "gender": "male",
+      "mobileNumber": "2345678765",
+      "speciality": "origami he likes"
+    },
+    {
+      "id": "4",
+      "name": "Shruti",
+      "password": "hruti123",
+      "dateOfBirth": "2000-02-02",
+      "gender": "female",
+      "mobileNumber": "3456787654",
+      "speciality": "economics topic"
+    },
+    {
+      "id": "5",
+      "name": "Aditi",
+      "password": "aditi123",
+      "dateOfBirth": "1999-03-11",
+      "gender": "female",
+      "mobileNumber": "3456798766",
+      "speciality": "curator at punereads"
+    },
+    {
+      "id": "605d",
+      "name": "Pranav",
+      "password": "asdfg",
+      "dateOfBirth": "2000-02-09",
+      "gender": "male",
+      "mobileNumber": "4343434567",
+      "speciality": "baking and writing"
+    }
+  ],
+  "bookings": [
+    {
+      "appointmentDate": "2024-11-12",
+      "slot": "9 AM to 10 AM",
+      "userId": "1",
+      "coachId": 1,
+      "id": "1"
+    },
+    {
+      "appointmentDate": "2024-11-28",
+      "slot": "2 PM to 3 PM",
+      "userId": 2,
+      "coachId": 2,
+      "id": "2"
+    }
+  ]
+}
